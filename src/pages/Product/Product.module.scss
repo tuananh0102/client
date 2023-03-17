@@ -1,0 +1,69 @@
+.wrapper {
+    display: flex;
+    padding: 40px 0;
+    width: 90%;
+}
+
+.wrapper-image{
+    min-width: 400px;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    background-color: #ccc;
+}
+
+.information {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quantity {
+    border: 1.5px solid #ccc;
+
+    display: inline-block;
+    width: 70px;
+
+    &:focus-within {
+        border: 1.5px solid #000;
+    }
+}
+
+.input {
+    width: 60px;
+    padding: 15px;
+}
+
+.sizeX,
+.sizeS {
+    display: inline-block;
+    padding: 15px 22px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sizeS {
+    margin-left: 10px;
+}
+
+.warming {
+    color: #2c6ecb;
+    .message {
+        color: red;
+    }
+}
+
+.selected {
+    background-color: #008060;
+    color: white;
+}
+
+.green {
+    color: forestgreen;
+}
+

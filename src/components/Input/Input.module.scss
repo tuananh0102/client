@@ -1,0 +1,19 @@
+.wrapper {
+    width: 386px;
+
+    display: flex;
+    justify-content: center;
+    // height: 40px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    &:focus-within {
+        border: 1px solid #000;
+    }
+}
+
+.input {
+    width: 100%;
+    padding: 20px 10px;
+}

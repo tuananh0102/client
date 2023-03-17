@@ -1,0 +1,22 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #ececec;
+}
+
+.footer-img {
+    width: 50px;
+    height: 65px;
+    object-fit: contain;
+    margin: 0 10px;
+}
